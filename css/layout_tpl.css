@@ -1,0 +1,235 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.container,
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Плавні зміни властивостей лінків */
+a {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+/*************************************/
+/* Зміни CSS коду розпочинати звідси */
+/*************************************/
+
+section {
+    min-height: 100vh;    /* !!! Тимчасово для відладки !!! Висота секцій рівна висоті екрану */
+    padding: 50px 0; 
+/* Внітрішні відступи зверху та знизу у секціях <section> */
+}
+
+#s4 {
+    background-color: black; /* Колір фону для секцій #s2, #s4 */
+    
+}
+
+a {
+    color: #8d8d8d;  /* Колір текстових лінків */
+}
+
+a:focus,
+a:hover {
+    color: #269da8;  /* Колір текстових лінків для псевдокласів */
+}
+
+/**************************************/
+/* Зміна властивостей для breakpoints */
+/**************************************/
+
+@media screen and (max-width:575px) {
+    .container,
+    .navbar {
+        padding-left: 15px;    /* Для Small додати відступи */
+        padding-right: 15px;   /* зліва та справа у .container та .navbar */
+    }
+
+    /* Приклад зміни відступів зверху, знизу для секцій на Small екранах */
+
+    section {
+        padding: 25px 0;
+        
+    }
+
+}
+
+@media screen and (max-width:767px) {
+     header {
+    background-image: url("../img/bg_medium.jpg");
+  }
+
+}
+
+.flex-container {
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  width: 100%;
+  background: #0c0c0c;
+}
+
+.flex-item {
+    padding: 15px;
+    margin-top: 10px;
+  margin-bottom: 10px;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+}
+
+header {
+    background-image: url("../img/bg_main.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+ 
+    
+}
+
+h1 {
+    font-size: 48pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10pt;
+    text-align: right;
+}
+
+h3 {
+    font-size: 16pt;
+     font-family: 'Roboto', sans-serif;
+    color: white;
+     margin-bottom: 25pt;
+    line-height: 22pt;
+    text-align: right;
+    
+}
+
+.cats {
+     background-image: url("../img/bg_main2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#s2 {
+    background: black;
+}
+
+
+
+h2 {
+    font-size: 26pt;
+    font-family: 'Roboto black', sans-serif;
+    color: #269da8;
+    margin-bottom: 10t;
+    margin-top: 150px;
+   
+}
+
+.background1 {
+    background-image: url("../img/bg_image1.jpg");
+    
+}
+
+
+.text {
+    color: white;
+    font-family: 'Roboto light', sans-serif;
+}
+    
+h4 {
+    font-size: 26pt;
+    font-family: 'Roboto black', sans-serif;
+    color: #269da8;
+    margin-bottom: 25pt;
+    margin-top: 65pt;
+}
+.carousel-inner {
+    height: 100vh;
+}
+.catback1 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image1.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.catback2 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image2.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.catback3 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image3.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.catback4 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image4.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.dogback1 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image5.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.dogback2 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image6.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.dogback3 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image7.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.dogback4 {
+ height: 100vh;
+   
+   background-image: url("../img/bg_image8.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
